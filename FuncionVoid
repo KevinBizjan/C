@@ -1,0 +1,10 @@
+#include <stdio.h>
+//Funcion que muestre un mensaje
+void mostrarMensaje() {
+	printf("!Bienvenido al sistema!");
+}
+int main(int argc, char *argv[]) {
+	mostrarMensaje();
+	return 0;
+}
+
