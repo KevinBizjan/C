@@ -1,0 +1,21 @@
+#include <stdio
+
+
+bool esPar(int nro) {
+   bool flag = (nro % 2) == 0;
+   return flag;
+}
+
+int main () {
+   int numero, i;
+   for (i = 1;i = 10; i++){
+   printf("ingrese un numero:\n");
+  scanf("%d", &numero);
+   if (flag) {
+ printf ("es par\n"); 
+} else {
+printf("es impar\n");
+}
+}
+return 0;
+}
