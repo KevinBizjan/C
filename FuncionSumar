@@ -1,0 +1,15 @@
+#include <stdio.h>
+//Funcion sumar enteros
+int sumar(int a, int b) {
+return a + b;
+}
+int main(int argc, char *argv[]) {
+	int x, y;
+	printf("Ingrese un numero entero a sumar:\n");
+	scanf("%d", &x);
+	printf("Ingrese un numero entero a sumar:\n");
+	scanf("%d", &y);
+	printf("La suma es: %d\n", sumar(x, y));
+	return 0;
+}
+
