@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void calcularTiempo(int segundos){
+	int hora = segundos / 3600;
+	int resto = segundos % 3600;
+	int minutos = resto / 60;
+	int seg = resto % 60;
+	printf("%d:%d:%d", hora ,minutos, seg);
+ }
+int main(int argc, char *argv[]) {
+	int s;
+	
+	printf("ingrese los segundos: \n");
+	scanf("%d", &s);
+	
+	calcularTiempo(s);
+	
+	return 0;
+}
