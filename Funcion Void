@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+//Funcion uso void
+void mostrarMenu() {
+	printf("1. Sumar\n");
+	printf("2. Restar\n");
+	printf("3. Salir\n");
+}
+int main() {
+	int opcion;
+	mostrarMenu();
+	scanf("%d", &opcion);
+	if (opcion == 1) {
+		printf("Haz seleccionado Sumar.\n");
+	} else if (opcion == 2) {
+		printf("Haz seleccionado Restar.\n");
+	} else {
+		printf("Haz seleccionado Salir.\n");
+	}
+	return 0;
+}
+
